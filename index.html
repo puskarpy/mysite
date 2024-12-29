@@ -3,156 +3,475 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="style.css" />
-    <link rel="icon" type="image/png" href="./Icons/Asset 1@0.5x.png" />
-
     <title>Pushkar Niraula</title>
+    <link rel="stylesheet" href="output.css" />
+    <link rel="icon" href="./Images/favicon.png" type="image/png" />
   </head>
-  <body>
-    <header>
-      <img class="logo" src="./Icons/Asset 1@2x.png" alt="puskar" />
-      <nav>
-        <ul>
-          <li><a href="#home">home</a></li>
-          <li><a href="#about-me">about me</a></li>
-          <li><a href="#projects-">projects</a></li>
-          <li><a href="#contact">contact</a></li>
+  <body class="bg-[#212121] text-white font-sans">
+    <header
+      class="bg-gray-800 backdrop-blur-md bg-opacity-70 z-50 px-4 fixed w-full"
+    >
+      <nav class="flex justify-between items-center">
+        <div class="p-1">
+          <a href="#home" class="p-1 text-white">
+            <span class="sr-only">Logo</span>
+            <img class="h-8 w-auto" src="./Images/logo.png" alt="" />
+          </a>
+        </div>
+        <ul class="sm:flex hidden text-white">
+          <li class="">
+            <a
+              href="#home"
+              class="uppercase text-sm/6 font-semibold hover:text-blue-500 ease-in-out"
+              >Home</a
+            >
+          </li>
+          <li class="ml-8">
+            <a
+              href="#about"
+              class="uppercase text-sm/6 font-semibold hover:text-blue-500 ease-in-out"
+              >About Me</a
+            >
+          </li>
+          <li class="ml-8">
+            <a
+              href="#projects"
+              class="uppercase text-sm/6 font-semibold hover:text-blue-500 ease-in-out"
+              >Projects</a
+            >
+          </li>
+          <li class="ml-8">
+            <a
+              href="#skills"
+              class="uppercase text-sm/6 font-semibold hover:text-blue-500 ease-in-out"
+              >skills</a
+            >
+          </li>
         </ul>
+        <div>
+          <button class="light-mode text-white px-2 py-1">
+            <i class="fa fa-sun"></i>
+          </button>
+          <button class="dark-mode hidden text-white px-2 py-1">
+            <i class="fa fa-moon"></i>
+          </button>
+        </div>
       </nav>
     </header>
-    <section id="home" class="first-sec">
-      <div class="container">
-        <h1 class="title">
-          welcome
-          <span>to my world.</span>
-        </h1>
-        <div class="link-button">
-          <a
-            class="button"
-            href="mailto:puskarniraula11@gmail.com"
-            target="_blank"
-            >Send a mail</a
+    <main>
+      <!-- Home Section -->
+      <section
+        id="home"
+        class="relative isolate px-6 pt-20 min-h-screen flex justify-center items-center lg:px-8"
+      >
+        <div class="text-center">
+          <h1
+            class="text-balance text-5xl font-semibold tracking-tight text-gray-100 sm:text-7xl"
           >
-          <a class="button different" href="/resume.pdf" target="_blank"
-            >Portfolio</a
+            Pushkar Niraula
+          </h1>
+          <p
+            class="mt-8 text-pretty text-lg font-medium text-gray-100 sm:text-xl/8"
           >
+            WEB DEVELOPER | PROGRAMMER
+          </p>
+          <div class="mt-10 flex items-center justify-center gap-x-6">
+            <a
+              href="#"
+              class="rounded-md bg-blue-500 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-blue-600 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
+              >Resume</a
+            >
+          </div>
         </div>
-        <p>&ldquo; What you seek is seeking you. &rdquo;</p>
-      </div>
-    </section>
-    <div id="about-me" class="container-2">
-      <section class="about-section">
-        <div class="second-sec">
-          <p class="second-title">About Me</p>
-          <p>
-            Hey there! I'm Pushkar, a Junior Full-Stack Developer with a knack
-            for creating responsive websites that don't break (most of the
-            time). I started my coding journey with C and C++, because why not
-            the tough stuff first?
-          </p>
-          <p>
-            Once I got through that, I moved on to the fun part – web
-            development. Now I can build sites using HTML, CSS, and JavaScript
-            that look good on any device (because, of course, everyone loves
-            their gadgets). Then I decided to hop on PYTHON because why not??
-          </p>
-          <p>
-            Check out my portfolio to see some of my work. Let&#39;s connect and
-            create something cool together!
-          </p>
+        <div
+          class="absolute inset-x-0 top-[calc(100%-13rem)] -z-10 transform-gpu overflow-hidden blur-3xl sm:top-[calc(100%-30rem)]"
+          aria-hidden="true"
+        >
+          <div
+            class="relative left-[calc(50%+3rem)] aspect-[1155/678] w-[36.125rem] -translate-x-1/2 bg-gradient-to-tr from-[#ff80b5] to-[#9089fc] opacity-30 sm:left-[calc(50%+36rem)] sm:w-[72.1875rem]"
+            style="
+              clip-path: polygon(
+                74.1% 44.1%,
+                100% 61.6%,
+                97.5% 26.9%,
+                85.5% 0.1%,
+                80.7% 2%,
+                72.5% 32.5%,
+                60.2% 62.4%,
+                52.4% 68.1%,
+                47.5% 58.3%,
+                45.2% 34.5%,
+                27.5% 76.7%,
+                0.1% 64.9%,
+                17.9% 100%,
+                27.6% 76.8%,
+                76.1% 97.7%,
+                74.1% 44.1%
+              );
+            "
+          ></div>
         </div>
       </section>
-    </div>
-    <section id="projects-" class="third-sec">
-      <h2>Projects</h2>
-      <div class="projects">
-        <figure class="pro-item">
+      <!-- About me Section -->
+      <section
+        id="about"
+        class="sm:p-10 p-6 flex flex-col-reverse sm:flex-row sm:items-center sm:justify-between gap-8"
+      >
+        <div class="p-4 font-sans text-gray-300">
+          <h2 class="text-2xl font-semibold mb-4 text-white">About Me</h2>
+          <p class="text-lg leading-relaxed mb-6">
+            I am a beginner developer with skills in HTML, CSS, and JavaScript,
+            and I enjoy building simple, functional websites. I have experience
+            with React for frontend development and am currently learning Django
+            and data science to expand my abilities. I'm passionate about
+            solving problems and creating useful, impactful projects. My goal is
+            to craft innovative and impactful digital experiences.
+          </p>
+          <a
+            href="#contact"
+            class="inline-block text-blue-600 font-semibold hover:text-blue-500 transition-colors"
+          >
+            Get in touch
+          </a>
+        </div>
+        <div class="max-w-xl overflow-hidden rounded-lg shadow-md">
           <img
-            src="./Images/Screen Shot 2023-12-22 at 12.04.43 PM.webp"
-            alt="Project"
+            class="w-full h-auto object-cover transition-transform transform hover:scale-105"
+            src="./Images/myImage.jpg"
+            alt="My Image"
           />
-          <figcaption class="pro-disc">
-            <p>Rock, Paper & Scissors</p>
-            <a
-              class="button small"
-              target="_blank"
-              href="https://puskar26.github.io/rps/"
-              >Go to</a
-            >
-          </figcaption>
-        </figure>
-        <figure class="pro-item">
+        </div>
+      </section>
+      <!-- Projects Section -->
+      <section
+        id="projects"
+        class="relative mt-20 flex flex-wrap justify-center gap-10 px-2 mx-auto overflow-hidden"
+      >
+        <div
+          class="absolute inset-x-0 top-0 right-0 -z-10 transform-gpu overflow-hidden blur-3xl"
+          aria-hidden="true"
+        >
+          <div
+            class="relative right-0 aspect-[1155/678] w-[36.125rem] bg-gradient-to-tr from-[#ff80b5] to-[#9089fc] opacity-30 sm:w-[72.1875rem]"
+            style="
+              clip-path: polygon(
+                74.1% 44.1%,
+                100% 61.6%,
+                97.5% 26.9%,
+                85.5% 0.1%,
+                80.7% 2%,
+                72.5% 32.5%,
+                60.2% 62.4%,
+                52.4% 68.1%,
+                47.5% 58.3%,
+                45.2% 34.5%,
+                27.5% 76.7%,
+                0.1% 64.9%,
+                17.9% 100%,
+                27.6% 76.8%,
+                76.1% 97.7%,
+                74.1% 44.1%
+              );
+            "
+          ></div>
+        </div>
+        <div
+          id="project1"
+          class="bg-gray-800 border border-gray-700 rounded-lg shadow-md overflow-hidden w-full sm:w-[40%]"
+        >
           <img
-            src="./Images/Screen Shot 2024-06-09 at 11.13.41 AM.webp"
-            alt="Project"
+            class="w-full h-48 object-cover"
+            src="./Images/interface.png"
+            alt="Project Image"
           />
-          <figcaption class="pro-disc">
-            <p>Blog Page</p>
+          <div class="p-4">
+            <h2 class="text-lg font-semibold text-white mb-2">
+              Weather Forecast
+            </h2>
+            <p class="text-gray-400 text-sm mb-4">
+              A simple and interactive weather application that provides
+              real-time weather information based on user input. It fetches
+              weather data from a reliable API and displays it in an
+              easy-to-read format, including temperature, humidity, and weather
+              conditions.
+            </p>
+            <div class="flex justify-between items-center">
+              <div class="flex gap-8">
+                <a
+                  href="https://github.com/puskarpy/weather"
+                  target="_blank"
+                  class="text-blue-600 text-sm font-medium hover:text-white"
+                  >Source Code</a
+                >
+                <a
+                  href="https://puskarpy.github.io/weather/"
+                  target="_blank"
+                  class="text-blue-600 text-sm font-medium hover:text-white"
+                  >View Live</a
+                >
+              </div>
+
+              <span class="text-gray-500 text-sm"
+                >HTML &bull; CSS &bull; JS</span
+              >
+            </div>
+          </div>
+        </div>
+        <div
+          id="project2"
+          class="bg-gray-800 border border-gray-700 rounded-lg shadow-md overflow-hidden w-full sm:w-[40%]"
+        >
+          <img
+            class="w-full h-48 object-cover"
+            src="./Images/final2.png"
+            alt="Project Image"
+          />
+          <div class="p-4">
+            <h2 class="text-lg font-semibold text-white mb-2">
+              Password Generator
+            </h2>
+            <p class="text-gray-400 text-sm mb-4">
+              A simple password generator built with React that allows users to
+              customize the length and character set of their password, with
+              options for including numbers and special characters.
+            </p>
+            <div class="flex justify-between items-center">
+              <div class="flex gap-8">
+                <a
+                  href="https://github.com/puskarpy/passwordgenerator"
+                  target="_blank"
+                  class="text-blue-600 text-sm font-medium hover:text-white"
+                  >Source Code</a
+                >
+                <a
+                  href="https://hexlock.netlify.app/"
+                  target="_blank"
+                  class="text-blue-600 text-sm font-medium hover:text-white"
+                  >View Live</a
+                >
+              </div>
+              <span class="text-gray-500 text-sm">React &bull; Tailwind</span>
+            </div>
+          </div>
+        </div>
+        <div
+          id="project3"
+          class="bg-gray-800 border border-gray-700 rounded-lg shadow-md overflow-hidden w-full sm:w-[40%]"
+        >
+          <img
+            class="w-full h-48 object-cover"
+            src="./Images/interface 2.png"
+            alt="Project Image"
+          />
+          <div class="p-4">
+            <h2 class="text-lg font-semibold text-white mb-2">Audio Player</h2>
+            <p class="text-gray-400 text-sm mb-4">
+              It is a sleek and modern music player built with HTML, CSS, and
+              JavaScript. It provides a smooth user experience with responsive
+              design, a custom UI, and easy-to-use controls for listening to
+              your favorite tracks.
+            </p>
+            <div class="flex justify-between items-center">
+              <div class="flex gap-8">
+                <a
+                  href="https://github.com/puskarpy/audio_player"
+                  target="_blank"
+                  class="text-blue-600 text-sm font-medium hover:text-white"
+                  >Source Code</a
+                >
+                <a
+                  href="https://audiobeat.netlify.app/"
+                  target="_blank"
+                  class="text-blue-600 text-sm font-medium hover:text-white"
+                  >View Live</a
+                >
+              </div>
+              <span class="text-gray-500 text-sm">React &bull; Tailwind</span>
+            </div>
+          </div>
+        </div>
+        <div
+          id="project4"
+          class="bg-gray-800 border border-gray-700 rounded-lg shadow-md overflow-hidden w-full sm:w-[40%]"
+        >
+          <img
+            class="w-full h-48 object-cover"
+            src="https://via.placeholder.com/300"
+            alt="Project Image"
+          />
+          <div class="p-4">
+            <h2 class="text-lg font-semibold text-white mb-2">Project Title</h2>
+            <p class="text-gray-400 text-sm mb-4">
+              A brief description of the project.
+            </p>
+            <div class="flex justify-between items-center">
+              <div class="flex gap-8">
+                <a
+                  href="#"
+                  class="text-blue-600 text-sm font-medium hover:text-white"
+                  >Source Code</a
+                >
+                <a
+                  href="#"
+                  class="text-blue-600 text-sm font-medium hover:text-white"
+                  >View Live</a
+                >
+              </div>
+              <span class="text-gray-500 text-sm">React &bull; Tailwind</span>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Skills Section -->
+      <section id="skills" class="p-4 sm:p-10">
+        <h3 class="text-3xl font-semibold text-center text-white mb-8">
+          Skills
+        </h3>
+
+        <!-- Skill Cards -->
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+          <!-- Skill 1 -->
+          <div
+            class="bg-gray-800 p-6 rounded-lg shadow-md hover:bg-gray-700 transition-colors"
+          >
+            <h4 class="text-xl font-semibold text-blue-500 mb-4">HTML</h4>
+            <div class="bg-gray-600 h-2 mb-4 rounded-full">
+              <div class="bg-blue-600 h-2 rounded-full w-90%"></div>
+            </div>
+            <p class="text-gray-400 text-sm">
+              Experienced with semantic HTML, responsive design, and
+              accessibility.
+            </p>
+          </div>
+
+          <!-- Skill 2 -->
+          <div
+            class="bg-gray-800 p-6 rounded-lg shadow-md hover:bg-gray-700 transition-colors"
+          >
+            <h4 class="text-xl font-semibold text-blue-500 mb-4">CSS</h4>
+            <div class="bg-gray-600 h-2 mb-4 rounded-full">
+              <div class="bg-blue-600 h-2 rounded-full w-80%"></div>
+            </div>
+            <p class="text-gray-400 text-sm">
+              Skilled in CSS3, Flexbox, Grid, and modern layout techniques like
+              Tailwind CSS.
+            </p>
+          </div>
+
+          <!-- Skill 3 -->
+          <div
+            class="bg-gray-800 p-6 rounded-lg shadow-md hover:bg-gray-700 transition-colors"
+          >
+            <h4 class="text-xl font-semibold text-blue-500 mb-4">JavaScript</h4>
+            <div class="bg-gray-600 h-2 mb-4 rounded-full">
+              <div class="bg-blue-600 h-2 rounded-full w-70%"></div>
+            </div>
+            <p class="text-gray-400 text-sm">
+              Comfortable with ES6+ syntax, DOM manipulation, and asynchronous
+              JavaScript.
+            </p>
+          </div>
+
+          <!-- Skill 4 -->
+          <div
+            class="bg-gray-800 p-6 rounded-lg shadow-md hover:bg-gray-700 transition-colors"
+          >
+            <h4 class="text-xl font-semibold text-blue-500 mb-4">React</h4>
+            <div class="bg-gray-600 h-2 mb-4 rounded-full">
+              <div class="bg-blue-600 h-2 rounded-full w-75%"></div>
+            </div>
+            <p class="text-gray-400 text-sm">
+              Experience in building UI components, managing state, and using
+              React hooks.
+            </p>
+          </div>
+
+          <!-- Skill 5 -->
+          <div
+            class="bg-gray-800 p-6 rounded-lg shadow-md hover:bg-gray-700 transition-colors"
+          >
+            <h4 class="text-xl font-semibold text-blue-500 mb-4">
+              Tailwind CSS
+            </h4>
+            <div class="bg-gray-600 h-2 mb-4 rounded-full">
+              <div class="bg-blue-600 h-2 rounded-full w-85%"></div>
+            </div>
+            <p class="text-gray-400 text-sm">
+              Proficient in building responsive layouts with Tailwind's
+              utility-first CSS framework.
+            </p>
+          </div>
+
+          <!-- Skill 6 -->
+          <div
+            class="bg-gray-800 p-6 rounded-lg shadow-md hover:bg-gray-700 transition-colors"
+          >
+            <h4 class="text-xl font-semibold text-blue-500 mb-4">Django</h4>
+            <div class="bg-gray-600 h-2 mb-4 rounded-full">
+              <div class="bg-blue-600 h-2 rounded-full w-60%"></div>
+            </div>
+            <p class="text-gray-400 text-sm">
+              Familiar with Django for building web applications, developing
+              APIs, and managing databases.
+            </p>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="bg-gray-800 text-white py-8 mt-8">
+      <div class="container mx-auto px-6 md:px-12">
+        <div class="flex flex-col items-center md:flex-row md:justify-between">
+          <!-- Footer Links -->
+          <div class="mb-6 md:mb-0">
+            <p class="text-lg font-semibold">Pushkar Niraula</p>
+            <div class="mt-4 space-x-4">
+              <a href="./privacy.html" class="hover:text-blue-500"
+                >Privacy Policy</a
+              >
+              <a href="./terms.html" class="hover:text-blue-500"
+                >Terms of Service</a
+              >
+              <a href="./form.html" class="hover:text-blue-500">Contact</a>
+            </div>
+          </div>
+
+          <!-- Social Media Links -->
+          <div class="flex space-x-6">
+            <a href="#" target="_blank" class="text-gray-400 hover:text-white">
+              <i class="fab fa-facebook-f"></i>
+            </a>
             <a
+              href="https://www.x.com/puskarpy/"
               target="_blank"
-              class="button small"
-              href="https://puskar26.github.io/bkt/"
-              >Go to</a
+              class="text-gray-400 hover:text-white"
             >
-          </figcaption>
-        </figure>
-        <figure class="pro-item">
-          <img src="./Images/IMG_20240608_122400.webp" alt="Project" />
-          <figcaption class="pro-disc">
-            <p>Password Generator</p>
+              <i class="fab fa-twitter"></i>
+            </a>
             <a
+              href="https://www.linkedin.com/in/pushkar-niraula-100b7728a/"
               target="_blank"
-              class="button small"
-              href="https://puskar26.github.io/pass/"
-              >Go to</a
+              class="text-gray-400 hover:text-white"
             >
-          </figcaption>
-        </figure>
-      </div>
-    </section>
-    <footer id="contact">
-      <div class="links">
-        <ul>
-          <li>
-            <a target="_blank" href="https://www.facebook.com/royal.emperior.5/"
-              ><img
-                class="icons"
-                src="./Icons/facebook-176-svgrepo-com.svg"
-                alt="socials"
-            /></a>
-          </li>
-          <li>
-            <a target="_blank" href="https://www.instagram.com/__puskarn__/"
-              ><img
-                class="icons"
-                src="./Icons/instagram-svgrepo-com.svg"
-                alt="socials"
-            /></a>
-          </li>
-          <li>
+              <i class="fab fa-linkedin-in"></i>
+            </a>
             <a
+              href="https://github.com/puskarpy"
               target="_blank"
-              href="https://x.com/puskarniraula26?t=nnHL60wKK2RWZrOd2Wx3og&s=09&fbclid=IwZXh0bgNhZW0CMTAAAR1G_-leM9Sqd5jFVKc-KABXDwIjSsYu7L-grsH1baY_6CYvI4MmZE3Ndpw_aem_AdvPRQhDZZyG2XUihhtMfDXOo2Ur5w3pOWez1htaMX7KzNsUsVMy_B7-lYOYIYRX3cfuEphovMQeqfWKJDmQLQ4X"
-              ><img
-                class="icons"
-                src="./Icons/icons8-twitterx.svg"
-                alt="socials"
-            /></a>
-          </li>
-          <li>
-            <a target="_blank" href="https://github.com/puskar26"
-              ><img
-                class="icons"
-                src="./Icons/github-svgrepo-com.svg"
-                alt="socials"
-            /></a>
-          </li>
-        </ul>
-      </div>
-      <div class="info">
-        <p>This webpage is created using HTML and CSS only.</p>
-        <p>Created by <span class="name">Pushkar Niraula</span>.</p>
+              class="text-gray-400 hover:text-white"
+            >
+              <i class="fab fa-github"></i>
+            </a>
+          </div>
+        </div>
+
+        <div class="mt-8 text-center text-gray-400 text-sm">
+          <p>&copy; 2024 Pushkar Niraula. All rights reserved.</p>
+        </div>
       </div>
     </footer>
+    <script
+      src="https://kit.fontawesome.com/c13c28a69a.js"
+      crossorigin="anonymous"
+    ></script>
   </body>
 </html>
