@@ -625,6 +625,10 @@ video {
   right: 0px;
 }
 
+.right-4 {
+  right: 1rem;
+}
+
 .top-0 {
   top: 0px;
 }
@@ -633,16 +637,16 @@ video {
   top: calc(100% - 13rem);
 }
 
-.right-1 {
-  right: 0.25rem;
+.bottom-3 {
+  bottom: 0.75rem;
 }
 
-.bottom-4 {
-  bottom: 1rem;
+.bottom-20 {
+  bottom: 5rem;
 }
 
-.right-10 {
-  right: 2.5rem;
+.bottom-16 {
+  bottom: 4rem;
 }
 
 .isolate {
@@ -660,6 +664,10 @@ video {
 .mx-auto {
   margin-left: auto;
   margin-right: auto;
+}
+
+.mb-10 {
+  margin-bottom: 2.5rem;
 }
 
 .mb-2 {
@@ -696,10 +704,6 @@ video {
 
 .mt-8 {
   margin-top: 2rem;
-}
-
-.mb-10 {
-  margin-bottom: 2.5rem;
 }
 
 .block {
@@ -919,21 +923,6 @@ video {
   background-color: rgb(245 245 245 / var(--tw-bg-opacity, 1));
 }
 
-.bg-neutral-900 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(23 23 23 / var(--tw-bg-opacity, 1));
-}
-
-.bg-neutral-200 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(229 229 229 / var(--tw-bg-opacity, 1));
-}
-
-.bg-neutral-800 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(38 38 38 / var(--tw-bg-opacity, 1));
-}
-
 .bg-opacity-70 {
   --tw-bg-opacity: 0.7;
 }
@@ -1017,6 +1006,11 @@ video {
   padding-bottom: 0.625rem;
 }
 
+.py-3 {
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
+}
+
 .py-4 {
   padding-top: 1rem;
   padding-bottom: 1rem;
@@ -1025,11 +1019,6 @@ video {
 .py-8 {
   padding-top: 2rem;
   padding-bottom: 2rem;
-}
-
-.py-3 {
-  padding-top: 0.75rem;
-  padding-bottom: 0.75rem;
 }
 
 .pt-20 {
@@ -1214,26 +1203,10 @@ video {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.hover\:w-12:hover {
-  width: 3rem;
-}
-
-.hover\:w-24:hover {
-  width: 6rem;
-}
-
-.hover\:w-64:hover {
-  width: 16rem;
-}
-
 .hover\:scale-105:hover {
   --tw-scale-x: 1.05;
   --tw-scale-y: 1.05;
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
-}
-
-.hover\:rounded-none:hover {
-  border-radius: 0px;
 }
 
 .hover\:bg-blue-600:hover {
@@ -1307,21 +1280,6 @@ video {
   background-color: rgb(23 23 23 / var(--tw-bg-opacity, 1));
 }
 
-.dark\:bg-\[\#f9f9f9\]:is(.dark *) {
-  --tw-bg-opacity: 1;
-  background-color: rgb(249 249 249 / var(--tw-bg-opacity, 1));
-}
-
-.dark\:bg-neutral-200:is(.dark *) {
-  --tw-bg-opacity: 1;
-  background-color: rgb(229 229 229 / var(--tw-bg-opacity, 1));
-}
-
-.dark\:bg-neutral-400:is(.dark *) {
-  --tw-bg-opacity: 1;
-  background-color: rgb(163 163 163 / var(--tw-bg-opacity, 1));
-}
-
 .dark\:text-gray-100:is(.dark *) {
   --tw-text-opacity: 1;
   color: rgb(243 244 246 / var(--tw-text-opacity, 1));
@@ -1353,8 +1311,16 @@ video {
 }
 
 @media (min-width: 640px) {
+  .sm\:bottom-4 {
+    bottom: 1rem;
+  }
+
   .sm\:left-\[calc\(50\%\+36rem\)\] {
     left: calc(50% + 36rem);
+  }
+
+  .sm\:right-10 {
+    right: 2.5rem;
   }
 
   .sm\:top-\[calc\(100\%-30rem\)\] {
