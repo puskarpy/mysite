@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="dark">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="output.css" />
     <link rel="icon" href="./Images/favicon.png" type="image/png" />
   </head>
-  <body class="bg-[#212121] text-white font-sans">
+  <body class="bg-[#f9f9f9] dark:bg-neutral-900 text-white font-sans relative">
     <header
       class="bg-gray-800 backdrop-blur-md bg-opacity-70 z-50 px-4 fixed w-full"
     >
@@ -51,9 +51,7 @@
         <div>
           <button class="light-mode text-white px-2 py-1">
             <i class="fa fa-sun"></i>
-          </button>
-          <button class="dark-mode hidden text-white px-2 py-1">
-            <i class="fa fa-moon"></i>
+            <i class="hidden fa fa-moon"></i>
           </button>
         </div>
       </nav>
@@ -66,12 +64,12 @@
       >
         <div class="text-center">
           <h1
-            class="text-balance text-5xl font-semibold tracking-tight text-gray-100 sm:text-7xl"
+            class="text-balance text-5xl font-semibold tracking-tight text-neutral-900 dark:text-gray-100 sm:text-7xl"
           >
             Pushkar Niraula
           </h1>
           <p
-            class="mt-8 text-pretty text-lg font-medium text-gray-100 sm:text-xl/8"
+            class="mt-8 text-pretty text-lg font-medium text-neutral-800 dark:text-gray-100 sm:text-xl/8"
           >
             WEB DEVELOPER | PROGRAMMER
           </p>
@@ -117,8 +115,12 @@
         id="about"
         class="sm:p-10 p-6 flex flex-col-reverse sm:flex-row sm:items-center sm:justify-between gap-8"
       >
-        <div class="p-4 font-sans text-gray-300">
-          <h2 class="text-2xl font-semibold mb-4 text-white">About Me</h2>
+        <div class="p-4 font-sans text-neutral-800 dark:text-gray-300">
+          <h2
+            class="text-2xl font-semibold mb-4 text-neutral-900 dark:text-white"
+          >
+            About Me
+          </h2>
           <p class="text-lg leading-relaxed mb-6">
             I am a beginner developer with skills in HTML, CSS, and JavaScript,
             and I enjoy building simple, functional websites. I have experience
@@ -145,7 +147,7 @@
       <!-- Projects Section -->
       <section
         id="projects"
-        class="relative mt-20 flex flex-wrap justify-center gap-10 px-2 mx-auto overflow-hidden"
+        class="relative mt-20 mb-10 flex flex-wrap justify-center gap-10 px-2 mx-auto overflow-hidden"
       >
         <div
           class="absolute inset-x-0 top-0 right-0 -z-10 transform-gpu overflow-hidden blur-3xl"
@@ -177,7 +179,7 @@
         </div>
         <div
           id="project1"
-          class="bg-gray-800 border border-gray-700 rounded-lg shadow-md overflow-hidden w-full sm:w-[40%]"
+          class="bg-neutral-100 dark:bg-gray-800 rounded-lg shadow-md overflow-hidden w-full sm:w-[40%]"
         >
           <img
             class="w-full h-48 object-cover"
@@ -185,10 +187,12 @@
             alt="Project Image"
           />
           <div class="p-4">
-            <h2 class="text-lg font-semibold text-white mb-2">
+            <h2
+              class="text-lg font-semibold text-neutral-900 dark:text-white mb-2"
+            >
               Weather Forecast
             </h2>
-            <p class="text-gray-400 text-sm mb-4">
+            <p class="text-neutral-800 dark:text-gray-400 text-sm mb-4">
               A simple and interactive weather application that provides
               real-time weather information based on user input. It fetches
               weather data from a reliable API and displays it in an
@@ -200,18 +204,18 @@
                 <a
                   href="https://github.com/puskarpy/weather"
                   target="_blank"
-                  class="text-blue-600 text-sm font-medium hover:text-white"
+                  class="text-blue-600 text-sm font-medium hover:text-blue-800"
                   >Source Code</a
                 >
                 <a
                   href="https://puskarpy.github.io/weather/"
                   target="_blank"
-                  class="text-blue-600 text-sm font-medium hover:text-white"
+                  class="text-blue-600 text-sm font-medium hover:text-blue-800"
                   >View Live</a
                 >
               </div>
 
-              <span class="text-gray-500 text-sm"
+              <span class="text-neutral-700 dark:text-gray-500 text-sm"
                 >HTML &bull; CSS &bull; JS</span
               >
             </div>
@@ -219,7 +223,7 @@
         </div>
         <div
           id="project2"
-          class="bg-gray-800 border border-gray-700 rounded-lg shadow-md overflow-hidden w-full sm:w-[40%]"
+          class="bg-neutral-100 dark:bg-gray-800 rounded-lg shadow-md overflow-hidden w-full sm:w-[40%]"
         >
           <img
             class="w-full h-48 object-cover"
@@ -227,10 +231,12 @@
             alt="Project Image"
           />
           <div class="p-4">
-            <h2 class="text-lg font-semibold text-white mb-2">
+            <h2
+              class="text-lg font-semibold text-neutral-900 dark:text-white mb-2"
+            >
               Password Generator
             </h2>
-            <p class="text-gray-400 text-sm mb-4">
+            <p class="text-neutral-800 dark:text-gray-400 text-sm mb-4">
               A simple password generator built with React that allows users to
               customize the length and character set of their password, with
               options for including numbers and special characters.
@@ -240,23 +246,25 @@
                 <a
                   href="https://github.com/puskarpy/passwordgenerator"
                   target="_blank"
-                  class="text-blue-600 text-sm font-medium hover:text-white"
+                  class="text-blue-600 text-sm font-medium hover:text-blue-800"
                   >Source Code</a
                 >
                 <a
                   href="https://hexlock.netlify.app/"
                   target="_blank"
-                  class="text-blue-600 text-sm font-medium hover:text-white"
+                  class="text-blue-600 text-sm font-medium hover:text-blue-800"
                   >View Live</a
                 >
               </div>
-              <span class="text-gray-500 text-sm">React &bull; Tailwind</span>
+              <span class="text-neutral-700 dark:text-gray-500 text-sm"
+                >React &bull; Tailwind</span
+              >
             </div>
           </div>
         </div>
         <div
           id="project3"
-          class="bg-gray-800 border border-gray-700 rounded-lg shadow-md overflow-hidden w-full sm:w-[40%]"
+          class="bg-neutral-100 dark:bg-gray-800 rounded-lg shadow-md overflow-hidden w-full sm:w-[40%]"
         >
           <img
             class="w-full h-48 object-cover"
@@ -264,8 +272,12 @@
             alt="Project Image"
           />
           <div class="p-4">
-            <h2 class="text-lg font-semibold text-white mb-2">Audio Player</h2>
-            <p class="text-gray-400 text-sm mb-4">
+            <h2
+              class="text-lg font-semibold text-neutral-900 dark:text-white mb-2"
+            >
+              Audio Player
+            </h2>
+            <p class="text-neutral-800 dark:text-gray-400 text-sm mb-4">
               It is a sleek and modern music player built with HTML, CSS, and
               JavaScript. It provides a smooth user experience with responsive
               design, a custom UI, and easy-to-use controls for listening to
@@ -276,23 +288,25 @@
                 <a
                   href="https://github.com/puskarpy/audio_player"
                   target="_blank"
-                  class="text-blue-600 text-sm font-medium hover:text-white"
+                  class="text-blue-600 text-sm font-medium hover:text-blue-800"
                   >Source Code</a
                 >
                 <a
                   href="https://audiobeat.netlify.app/"
                   target="_blank"
-                  class="text-blue-600 text-sm font-medium hover:text-white"
+                  class="text-blue-600 text-sm font-medium hover:text-blue-800"
                   >View Live</a
                 >
               </div>
-              <span class="text-gray-500 text-sm">React &bull; Tailwind</span>
+              <span class="text-neutral-700 dark:text-gray-500 text-sm"
+                >React &bull; Tailwind</span
+              >
             </div>
           </div>
         </div>
         <div
           id="project4"
-          class="bg-gray-800 border border-gray-700 rounded-lg shadow-md overflow-hidden w-full sm:w-[40%]"
+          class="bg-neutral-100 dark:bg-gray-800 rounded-lg shadow-lg overflow-hidden w-full sm:w-[40%]"
         >
           <img
             class="w-full h-48 object-cover"
@@ -300,31 +314,39 @@
             alt="Project Image"
           />
           <div class="p-4">
-            <h2 class="text-lg font-semibold text-white mb-2">Project Title</h2>
-            <p class="text-gray-400 text-sm mb-4">
+            <h2
+              class="text-lg font-semibold text-neutral-900 dark:text-white mb-2"
+            >
+              Project Title
+            </h2>
+            <p class="text-neutral-800 dark:text-gray-400 text-sm mb-4">
               A brief description of the project.
             </p>
             <div class="flex justify-between items-center">
               <div class="flex gap-8">
                 <a
                   href="#"
-                  class="text-blue-600 text-sm font-medium hover:text-white"
+                  class="text-blue-600 text-sm font-medium hover:text-blue-800"
                   >Source Code</a
                 >
                 <a
                   href="#"
-                  class="text-blue-600 text-sm font-medium hover:text-white"
+                  class="text-blue-600 text-sm font-medium hover:text-blue-800"
                   >View Live</a
                 >
               </div>
-              <span class="text-gray-500 text-sm">React &bull; Tailwind</span>
+              <span class="text-neutral-700 dark:text-gray-500 text-sm"
+                >React &bull; Tailwind</span
+              >
             </div>
           </div>
         </div>
       </section>
       <!-- Skills Section -->
-      <section id="skills" class="p-4 sm:p-10">
-        <h3 class="text-3xl font-semibold text-center text-white mb-8">
+      <section id="skills" class="p-4 sm:p-10 mt-10">
+        <h3
+          class="text-3xl font-semibold text-center text-neutral-900 dark:text-gray-100 mb-8"
+        >
           Skills
         </h3>
 
@@ -332,13 +354,13 @@
         <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
           <!-- Skill 1 -->
           <div
-            class="bg-gray-800 p-6 rounded-lg shadow-md hover:bg-gray-700 transition-colors"
+            class="bg-neutral-100 dark:bg-gray-800 p-6 rounded-lg shadow-md hover:bg-gray-200 dark:hover:bg-gray-700 transition-colors"
           >
             <h4 class="text-xl font-semibold text-blue-500 mb-4">HTML</h4>
             <div class="bg-gray-600 h-2 mb-4 rounded-full">
               <div class="bg-blue-600 h-2 rounded-full w-90%"></div>
             </div>
-            <p class="text-gray-400 text-sm">
+            <p class="text-neutral-800 dark:text-gray-400 text-sm">
               Experienced with semantic HTML, responsive design, and
               accessibility.
             </p>
@@ -346,13 +368,13 @@
 
           <!-- Skill 2 -->
           <div
-            class="bg-gray-800 p-6 rounded-lg shadow-md hover:bg-gray-700 transition-colors"
+            class="bg-neutral-100 dark:bg-gray-800 p-6 rounded-lg shadow-md hover:bg-gray-200 dark:hover:bg-gray-700 transition-colors"
           >
             <h4 class="text-xl font-semibold text-blue-500 mb-4">CSS</h4>
             <div class="bg-gray-600 h-2 mb-4 rounded-full">
               <div class="bg-blue-600 h-2 rounded-full w-80%"></div>
             </div>
-            <p class="text-gray-400 text-sm">
+            <p class="text-neutral-800 dark:text-gray-400 text-sm">
               Skilled in CSS3, Flexbox, Grid, and modern layout techniques like
               Tailwind CSS.
             </p>
@@ -360,13 +382,13 @@
 
           <!-- Skill 3 -->
           <div
-            class="bg-gray-800 p-6 rounded-lg shadow-md hover:bg-gray-700 transition-colors"
+            class="bg-neutral-100 dark:bg-gray-800 p-6 rounded-lg shadow-md hover:bg-gray-200 dark:hover:bg-gray-700 transition-colors"
           >
             <h4 class="text-xl font-semibold text-blue-500 mb-4">JavaScript</h4>
             <div class="bg-gray-600 h-2 mb-4 rounded-full">
               <div class="bg-blue-600 h-2 rounded-full w-70%"></div>
             </div>
-            <p class="text-gray-400 text-sm">
+            <p class="text-neutral-800 dark:text-gray-400 text-sm">
               Comfortable with ES6+ syntax, DOM manipulation, and asynchronous
               JavaScript.
             </p>
@@ -374,13 +396,13 @@
 
           <!-- Skill 4 -->
           <div
-            class="bg-gray-800 p-6 rounded-lg shadow-md hover:bg-gray-700 transition-colors"
+            class="bg-neutral-100 dark:bg-gray-800 p-6 rounded-lg shadow-md hover:bg-gray-200 dark:hover:bg-gray-700 transition-colors"
           >
             <h4 class="text-xl font-semibold text-blue-500 mb-4">React</h4>
             <div class="bg-gray-600 h-2 mb-4 rounded-full">
               <div class="bg-blue-600 h-2 rounded-full w-75%"></div>
             </div>
-            <p class="text-gray-400 text-sm">
+            <p class="text-neutral-800 dark:text-gray-400 text-sm">
               Experience in building UI components, managing state, and using
               React hooks.
             </p>
@@ -388,7 +410,7 @@
 
           <!-- Skill 5 -->
           <div
-            class="bg-gray-800 p-6 rounded-lg shadow-md hover:bg-gray-700 transition-colors"
+            class="bg-neutral-100 dark:bg-gray-800 p-6 rounded-lg shadow-md hover:bg-gray-200 dark:hover:bg-gray-700 transition-colors"
           >
             <h4 class="text-xl font-semibold text-blue-500 mb-4">
               Tailwind CSS
@@ -396,7 +418,7 @@
             <div class="bg-gray-600 h-2 mb-4 rounded-full">
               <div class="bg-blue-600 h-2 rounded-full w-85%"></div>
             </div>
-            <p class="text-gray-400 text-sm">
+            <p class="text-neutral-800 dark:text-gray-400 text-sm">
               Proficient in building responsive layouts with Tailwind's
               utility-first CSS framework.
             </p>
@@ -404,13 +426,13 @@
 
           <!-- Skill 6 -->
           <div
-            class="bg-gray-800 p-6 rounded-lg shadow-md hover:bg-gray-700 transition-colors"
+            class="bg-neutral-100 dark:bg-gray-800 p-6 rounded-lg shadow-md hover:bg-gray-200 dark:hover:bg-gray-700 transition-colors"
           >
             <h4 class="text-xl font-semibold text-blue-500 mb-4">Django</h4>
             <div class="bg-gray-600 h-2 mb-4 rounded-full">
               <div class="bg-blue-600 h-2 rounded-full w-60%"></div>
             </div>
-            <p class="text-gray-400 text-sm">
+            <p class="text-neutral-800 dark:text-gray-400 text-sm">
               Familiar with Django for building web applications, developing
               APIs, and managing databases.
             </p>
@@ -469,9 +491,15 @@
         </div>
       </div>
     </footer>
+    <button
+      class="work rounded-full py-3 px-4 fixed right-10 bottom-4 bg-blue-600 hover:w-68 ease-in-out"
+    >
+      <i class="fa fa-user"></i>
+    </button>
     <script
       src="https://kit.fontawesome.com/c13c28a69a.js"
       crossorigin="anonymous"
     ></script>
+    <script src="./script.js"></script>
   </body>
 </html>
