@@ -29,7 +29,7 @@ export default function Home() {
         className='flex items-center justify-center mt-12 md:mt-0'>
             <div className='relative w-80 h-80 md:w-90 md:h-90'>
                 <div className='-inset-1 blur-3xl absolute bg-sky-400 z-0'></div>
-                <img src="/profile.webp" alt="My picture" className='z-10 relative rounded-lg object-cover object-center w-full h-full' />
+                <img src="/profile.jpg" alt="My picture" className='z-10 relative rounded-lg object-cover object-top w-full h-full'/>
             </div>
         </motion.div>
     </div>
