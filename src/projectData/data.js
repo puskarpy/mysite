@@ -23,6 +23,14 @@ export const projects = [
     demoLink: "",
     codeLink: "https://github.com/puskarpy/blogur",
   },
+  {
+    id: 5,
+    title: "Complete Todo App",
+    description: "A full-stack MERN (MongoDB, Express, React, Node.js) Todo application with features for adding, editing, deleting, and marking tasks as completed. Built with React Query for state management and Axios for API requests.",
+    tech: ["React", "NodeJS", "Express", "ReactQuery", "Tailwind"],
+    demoLink: "",
+    codeLink: "https://github.com/puskarpy/completetodo",
+  },
 ];
 
 export default projects;
