@@ -1,9 +1,9 @@
 {
   "name": "mywebsite",
   "private": true,
+  "homepage": "https://puskarpy.github.io/mysite/",
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://puskarpy.github.io/mysite/",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
