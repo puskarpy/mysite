@@ -5,7 +5,8 @@ export const projects = [
     description: "A dynamic weather application that provides real-time weather information and forecasts. Built with a clean, user-friendly interface that displays current weather conditions, temperature, and weather predictions for any location.",
     tech: ["HTML", "CSS", "JavaScript", "Weather API", "Responsive Design"],
     demoLink: "https://puskarpy.github.io/weather/",
-    codeLink: "https://github.com/puskarpy/weather"
+    codeLink: "https://github.com/puskarpy/weather",
+    imageUrl: "/weather.png"
   },
   {
     id: 2,
@@ -13,7 +14,8 @@ export const projects = [
     description: "An interactive Rock, Paper, Scissors game with score tracking and clean UI. Features include real-time score updates, game reset functionality, and responsive design for an engaging gaming experience.",
     tech: ["HTML", "CSS", "JavaScript", "DOM Manipulation", "Game Logic"],
     demoLink: "https://puskarpy.github.io/rps/",
-    codeLink: "https://github.com/puskarpy/rps"
+    codeLink: "https://github.com/puskarpy/rps",
+    imageUrl: "/weather.png"
   },
   {
     id: 4,
@@ -22,6 +24,7 @@ export const projects = [
     tech: ["Bootstrap", "EJS", "NodeJS", "Express"],
     demoLink: "",
     codeLink: "https://github.com/puskarpy/blogur",
+    imageUrl: "/weather.png"
   },
   {
     id: 5,
@@ -30,6 +33,7 @@ export const projects = [
     tech: ["React", "NodeJS", "Express", "ReactQuery", "Tailwind"],
     demoLink: "",
     codeLink: "https://github.com/puskarpy/completetodo",
+    imageUrl: "/weather.png"
   },
 ];
 

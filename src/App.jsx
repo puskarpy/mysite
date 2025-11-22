@@ -1,4 +1,4 @@
-import {Navbar, Home, About, Skills, Projects, Footer, Links} from "./components";
+import {Navbar, Home, Skills, Projects, Footer, Links} from "./components";
 
 function App() {
   return (
@@ -9,9 +9,6 @@ function App() {
     <main>
       <section id="home">
       <Home/>
-      </section>
-      <section id="about">
-      <About/>
       </section>
       <section id="skills">
       <Skills/>
