@@ -15,7 +15,7 @@ export const projects = [
     tech: ["HTML", "CSS", "JavaScript", "DOM Manipulation", "Game Logic"],
     demoLink: "https://puskarpy.github.io/rps/",
     codeLink: "https://github.com/puskarpy/rps",
-    imageUrl: "/weather.png"
+    imageUrl: "/rps.png"
   },
   {
     id: 4,
@@ -24,7 +24,7 @@ export const projects = [
     tech: ["Bootstrap", "EJS", "NodeJS", "Express"],
     demoLink: "",
     codeLink: "https://github.com/puskarpy/blogur",
-    imageUrl: "/weather.png"
+    imageUrl: "/blog.jpg"
   },
   {
     id: 5,
@@ -33,7 +33,7 @@ export const projects = [
     tech: ["React", "NodeJS", "Express", "ReactQuery", "Tailwind"],
     demoLink: "",
     codeLink: "https://github.com/puskarpy/completetodo",
-    imageUrl: "/weather.png"
+    imageUrl: "/todo.jpg"
   },
 ];
 

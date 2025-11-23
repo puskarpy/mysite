@@ -27,7 +27,7 @@ const links = [
 
 export default function Links() {
   return (
-    <div className="max-w-7xl mx-auto px-10 py-20">
+    <div className="max-w-full md:max-w-6xl mx-auto px-4 md:px-10 py-20">
         <div className='text-3xl font-bold tracking-wider'>
          Let's build something together.
         </div>

@@ -19,9 +19,9 @@ export default function Navbar() {
         <nav className='hidden md:block'>
           <ul className='flex gap-6 uppercase font-semibold text-xs tracking-wide text-neutral-300 '>
             <li><a className='hover:text-neutral-100 transition-all ease-in-out' href="#home">Home</a></li>
-            <li><a className='hover:text-neutral-100 transition-all ease-in-out' href="#about">About</a></li>
             <li><a className='hover:text-neutral-100 transition-all ease-in-out' href="#skills">Skills</a></li>
             <li><a className='hover:text-neutral-100 transition-all ease-in-out' href="#projects">Projects</a></li>
+            <li><a className='hover:text-neutral-100 transition-all ease-in-out' href="#contact">Connect</a></li>
           </ul>
         </nav>
 
@@ -30,10 +30,10 @@ export default function Navbar() {
         isOpen && 
         <nav className='block md:hidden py-4 bg-[#0a0a0a] absolute left-0 top-18 w-full'>
           <ul className='flex flex-col gap-6 items-center '>
-            <li><a className='hover:text-sky-400 transition-all ease-in-out' href="#home">Home</a></li>
-            <li><a className='hover:text-sky-400 transition-all ease-in-out' href="#about">About</a></li>
-            <li><a className='hover:text-sky-400 transition-all ease-in-out' href="#skills">Skills</a></li>
-            <li><a className='hover:text-sky-400 transition-all ease-in-out' href="#projects">Projects</a></li>
+            <li><a className='hover:text-neutral-100 transition-all ease-in-out' href="#home">Home</a></li>
+            <li><a className='hover:text-neutral-100 transition-all ease-in-out' href="#skills">Skills</a></li>
+            <li><a className='hover:text-neutral-100 transition-all ease-in-out' href="#projects">Projects</a></li>
+            <li><a className='hover:text-neutral-100 transition-all ease-in-out' href="#contact">Connect</a></li>
           </ul>
         </nav>
       }

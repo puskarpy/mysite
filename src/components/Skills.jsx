@@ -91,9 +91,10 @@ const tools = {
 export default function Skills() {
 
   return (
-    <div className='relative max-w-6xl mx-auto min-h-fit px-10 py-20 '>
-        <div className='z-10 mb-6 flex items-start'>
+    <div className='relative max-w-full md:max-w-6xl mx-auto min-h-fit px-4 md:px-10 py-20 '>
+        <div className='z-10 mb-12 flex items-center gap-4'>
         <h2 className='text-3xl font-bold tracking-wider'>What I Work With</h2>
+        <span className='w-[1px] h-[1px] flex-1 bg-white/20'></span>
         </div>
             <div className='z-10'>
             <div className='grid sm:grid-cols-3 gap-6'>
