@@ -1,5 +1,4 @@
 import React from 'react'
-import { FolderGit2, Github, MoveUpRight } from "lucide-react";
 import projects from '../projectData/data';
 import ProjectCard from './ui/projectCard.jsx';
 export default function Projects() {

@@ -1,5 +1,5 @@
 import React from 'react'
-import {Github, Instagram, Twitter, Linkedin, Cable} from 'lucide-react'
+import {Github, Instagram, Twitter, Linkedin} from 'lucide-react'
 import LinkCard from './ui/LinkCard'
 
 const links = [
@@ -19,9 +19,9 @@ const links = [
     url: "https://www.linkedin.com/in/pushkar-niraula-100b7728a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
   },
   {
-    name: "Github",
-    icon: <Github/>,
-    url: "https://github.com/puskarpy"
+    name: "Instagram",
+    icon: <Instagram/>,
+    url: "https://instagram.com/puskar.s07"
   },
 ]
 
