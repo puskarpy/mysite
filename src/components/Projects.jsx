@@ -1,6 +1,6 @@
 import React from 'react'
 import projects from '../projectData/data';
-import ProjectCard from './ui/projectCard.jsx';
+import ProjectCard from './ui/ProjectCard.jsx';
 export default function Projects() {
   return (
   <div className='relative max-w-full md:max-w-6xl min-h-fit sm:min-h-screen px-4 md:px-10 py-20 mx-auto'>
